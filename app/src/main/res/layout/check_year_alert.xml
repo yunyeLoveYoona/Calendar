@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/check_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/year_scroll"
+            android:scrollbars="none"
+            android:layout_weight="1.0">
+
+            <ListView
+                android:id="@+id/year_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:orientation="vertical">
+
+            </ListView>
+
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/month_scroll"
+            android:scrollbars="none"
+            android:layout_weight="1.0">
+
+            <ListView
+                android:id="@+id/month_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:orientation="vertical"></ListView>
+
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:textSize="@dimen/button_size"
+            android:text="取消"
+            android:textColor="@color/button_cancel"
+            android:id="@+id/cancel"
+            android:padding="10dp"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:textSize="@dimen/button_size"
+            android:text="确定"
+            android:id="@+id/confirm"
+            android:textColor="@color/button_confirm"
+            android:padding="10dp"
+            android:gravity="center"/>
+        </LinearLayout>
+</LinearLayout>

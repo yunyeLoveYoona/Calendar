@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="select_text">#ffffff</color>
+    <color name="default_text">#818181</color>
+    <color name="select_background">#434B56</color>
+    <color name="hyaline">#00ffffff</color>
+    <color name="check_background">#ffffff</color>
+    <color name="button_cancel">#000000</color>
+    <color name="button_confirm">#64A8DD</color>
+    <color name="year_text">#000000</color>
+    <color name="check_year_text">#E7E7E7</color>
+</resources>
